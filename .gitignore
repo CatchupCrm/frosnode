@@ -3,12 +3,16 @@
 Homestead.yaml
 Homestead.json
 /config/lfm.php
-/nbproject/private/
+/nbproject/*
 /node_modules
+/public/*
 /public/error_log
 /public/lb-faveo/media/
 /public/uploads
 /public/photos/
 /app/FaveoJob
+/storage/*
+/vendor/*
 /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
 /storage/app/attachments
+/composer.lock

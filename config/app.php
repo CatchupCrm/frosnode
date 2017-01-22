@@ -168,6 +168,8 @@ return [
         'App\Providers\RouteServiceProvider',
         'App\Providers\ConfigServiceProvider',
         'App\Providers\ComposerServiceProvider',
+
+
         'Propaganistas\LaravelPhone\LaravelPhoneServiceProvider',
         'Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider',
         'Vsmoraes\Pdf\PdfServiceProvider',
@@ -175,7 +177,7 @@ return [
         'Chumper\Datatable\DatatableServiceProvider',
         'Chumper\Zipper\ZipperServiceProvider',
         'Tymon\JWTAuth\Providers\JWTAuthServiceProvider',
-       \Torann\GeoIP\GeoIPServiceProvider::class,
+        \Torann\GeoIP\GeoIPServiceProvider::class,
         Unisharp\Laravelfilemanager\LaravelFilemanagerServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
         Unisharp\Ckeditor\ServiceProvider::class,
@@ -240,6 +242,8 @@ return [
         'UTC'         => 'App\Http\Controllers\Agent\helpdesk\TicketController',
         'Ttable'      => 'App\Http\Controllers\Agent\helpdesk\TicketController', //to use getTable function.
         'SMTPS'       => 'App\Http\Controllers\HomeController',
+
+
         'Datatable'   => 'Chumper\Datatable\Facades\DatatableFacade',
         'Zipper'      => 'Chumper\Zipper\Zipper',
         'JWTAuth'     => 'Tymon\JWTAuth\Facades\JWTAuth',

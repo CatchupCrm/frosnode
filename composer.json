@@ -35,7 +35,8 @@
         "unisharp/laravel-filemanager": "^1.6",
         "unisharp/laravel-ckeditor": "^4.5",
         "torann/geoip": "^1.0",
-        "yajra/laravel-datatables-oracle": "~6.0"
+        "yajra/laravel-datatables-oracle": "~6.0",
+        "nwidart/db-exporter": "dev-master",
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
